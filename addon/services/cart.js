@@ -34,7 +34,7 @@ const Service = ArrayProxy.extend({
     }
   },
 
-  cartItemProperties: ['name', 'price', 'quantity', 'increment', 'guidProps'],
+  cartItemProperties: ['id', 'name', 'price', 'quantity', 'increment', 'guidProps'],
 
   payload() {
     return this.map((item) => {
