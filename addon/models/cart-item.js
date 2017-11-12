@@ -8,7 +8,6 @@ const {
 } = Ember;
 
 export default EmberObject.extend({
-    id: -1,
     increment: true,
     quantity: 0,
     price: 0,
